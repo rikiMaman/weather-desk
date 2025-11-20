@@ -29,10 +29,19 @@ WeatherDesk היא אפליקציית WPF שולחנית מתקדמת להצגת
 | Architecture | MVVM Design Pattern |
 
 ---
-
 ## 📦 מבנה הפרויקט (Project Structure)
 
 הפרויקט בנוי לפי תבנית **MVVM** ומחולק לתיקיות ברורות:
+
+k/
+│
+├── Models/ # מודלים עבור נתוני API
+├── ViewModels/ # לוגיקה ופקודות (MVVM)
+├── Views/ # קבצי XAML – ממשק המשתמש
+├── Services/ # שירותי API וקוד חיצוני
+└── Utils/ # עזרים, ממירים ועוד
+
+
 WeatherDesk/
 │
 ├── Models/ # מודלים עבור נתוני API
