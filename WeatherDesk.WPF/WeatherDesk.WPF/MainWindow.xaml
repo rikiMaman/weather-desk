@@ -1,0 +1,135 @@
+﻿<!--<Window x:Class="WeatherDesk.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherDesk.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+    </Grid>
+</Window>-->
+    
+    
+<!--<Window x:Class="WeatherDesk.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Weather Desk" Width="800" Height="600">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBox Width="200" Margin="0,0,0,10"
+         Text="{Binding CityName, UpdateSourceTrigger=PropertyChanged}" TextChanged="TextBox_TextChanged">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Foreground" Value="Gray"/>
+                        <Setter Property="Text" Value="הכנס עיר..."/>
+                        <Style.Triggers>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter Property="Foreground" Value="Black"/>
+                                <Setter Property="Text" Value=""/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+
+
+            
+
+            <TextBox x:Name="CityTextBox" Text="{Binding CityName, UpdateSourceTrigger=PropertyChanged}">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Foreground" Value="Gray"/>
+                        <Setter Property="Text" Value="Enter city name..."/>
+                        <Style.Triggers>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter Property="Foreground" Value="Black"/>
+                                <Setter Property="Text" Value=""/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+
+
+
+            <Button Content="חפש" Width="100" Command="{Binding SearchCommand}" />
+            <ListView ItemsSource="{Binding Forecasts}" Margin="0,10,0,0">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="תאריך" DisplayMemberBinding="{Binding Date}" Width="150" />
+                        <GridViewColumn Header="טמפ'" DisplayMemberBinding="{Binding Temperature}" Width="100" />
+                        <GridViewColumn Header="תיאור" DisplayMemberBinding="{Binding Description}" Width="200" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+    </Grid>
+    
+</Window>-->
+<Window x:Class="WeatherDesk.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherDesk.WPF"
+        mc:Ignorable="d"
+        Title="Weather Desk" Height="600" Width="900">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 🔍 חיפוש עיר -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <TextBox Width="200" 
+                     Text="{Binding CityName, UpdateSourceTrigger=PropertyChanged}" 
+                     Margin="5"/>
+            <Button Content="חפש" 
+                    Width="80" 
+                    Command="{Binding SearchCommand}" 
+                    Margin="5"/>
+            <Button Content="הוסף למועדפים" 
+                    Width="120" 
+                    Command="{Binding AddToFavoritesCommand}" 
+                    Margin="5"/>
+        </StackPanel>
+
+        <!-- ⭐ רשימת מועדפים -->
+        <GroupBox Header="מועדפים" Grid.Row="1" Margin="0,0,0,10">
+            <ListBox ItemsSource="{Binding Favorites}" 
+                     SelectedItem="{Binding SelectedFavorite}" 
+                     Height="100"/>
+        </GroupBox>
+
+        <!-- 🕘 היסטוריית חיפושים -->
+        <GroupBox Header="היסטוריה אחרונה" Grid.Row="2" Margin="0,0,0,10">
+            <ListBox ItemsSource="{Binding RecentSearches}" 
+                     SelectedItem="{Binding SelectedRecent}" 
+                     Height="100"/>
+        </GroupBox>
+
+        <!-- 🌤 טבלת תחזית -->
+        <DataGrid Grid.Row="3"
+                  ItemsSource="{Binding Forecasts}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True"
+                  Margin="0,10,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="תאריך" Binding="{Binding Date}" Width="2*"/>
+                <DataGridTextColumn Header="טמפ׳" Binding="{Binding Temperature}" Width="*"/>
+                <DataGridTextColumn Header="תיאור" Binding="{Binding Description}" Width="2*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
+
+    
+   

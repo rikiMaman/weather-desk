@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|c:\\users\\\u05D0\u05E1\u05EA\u05E8\\desktop\\weatherdesk.wpf\\weatherdesk.wpf\\obj\\debug\\net8.0-windows\\weatherdesk.wpf.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|solutionrelative:weatherdesk.wpf\\obj\\debug\\net8.0-windows\\weatherdesk.wpf.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\weatherdesk.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|solutionrelative:weatherdesk.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\weatherdesk.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|solutionrelative:weatherdesk.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|c:\\users\\\u05D0\u05E1\u05EA\u05E8\\desktop\\weatherdesk.wpf\\weatherdesk.wpf\\data\\weatherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|solutionrelative:weatherdesk.wpf\\data\\weatherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\weatherdesk.wpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|solutionrelative:weatherdesk.wpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Migrations\\20251102220559_AddCityHistoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|solutionrelative:WeatherDesk.WPF\\Migrations\\20251102220559_AddCityHistoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Migrations\\20251103001859_RecreateTables1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11076F70-CD4F-4032-94F8-E90252199233}|WeatherDesk.WPF\\WeatherDesk.WPF.csproj|solutionrelative:WeatherDesk.WPF\\Migrations\\20251103001859_RecreateTables1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1121317301:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherDesk.WPF.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\obj\\Debug\\net8.0-windows\\WeatherDesk.WPF.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WeatherDesk.WPF\\obj\\Debug\\net8.0-windows\\WeatherDesk.WPF.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\obj\\Debug\\net8.0-windows\\WeatherDesk.WPF.AssemblyInfo.cs",
+              "RelativeToolTip": "WeatherDesk.WPF\\obj\\Debug\\net8.0-windows\\WeatherDesk.WPF.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T00:34:51.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Data\\WeatherDbContext.cs",
+              "RelativeDocumentMoniker": "WeatherDesk.WPF\\Data\\WeatherDbContext.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Data\\WeatherDbContext.cs",
+              "RelativeToolTip": "WeatherDesk.WPF\\Data\\WeatherDbContext.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAADwvzMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T00:16:06.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherDesk.WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WeatherDesk.WPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T22:14:14.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WeatherDesk.WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\MainWindow.xaml",
+              "RelativeToolTip": "WeatherDesk.WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-05T22:22:07.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251103001859_RecreateTables1.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Migrations\\20251103001859_RecreateTables1.cs",
+              "RelativeDocumentMoniker": "WeatherDesk.WPF\\Migrations\\20251103001859_RecreateTables1.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Migrations\\20251103001859_RecreateTables1.cs",
+              "RelativeToolTip": "WeatherDesk.WPF\\Migrations\\20251103001859_RecreateTables1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T00:18:59.848Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251102220559_AddCityHistoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Migrations\\20251102220559_AddCityHistoryTable.cs",
+              "RelativeDocumentMoniker": "WeatherDesk.WPF\\Migrations\\20251102220559_AddCityHistoryTable.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\Migrations\\20251102220559_AddCityHistoryTable.cs",
+              "RelativeToolTip": "WeatherDesk.WPF\\Migrations\\20251102220559_AddCityHistoryTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T22:05:59.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WeatherDesk.WPF\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05E1\u05EA\u05E8\\Desktop\\WeatherDesk.WPF\\WeatherDesk.WPF\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "WeatherDesk.WPF\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAGYBAAAAAAAAAAAIwHEBAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:23:09.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

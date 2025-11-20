@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XOYDfbbAPHQ1qFtCMwIZAljLbkmteskcmgaCJJAWjoc=",
+  "Source": "WeatherDesk.Api",
+  "BasePath": "_content/WeatherDesk.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
